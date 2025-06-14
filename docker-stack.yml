@@ -1,6 +1,7 @@
 services:
     backend:
-        image: ghcr.io/waniyafaheem/devOps_assignment_waniya/fastapi-todo:latest
+        image: --tag ghcr.io/waniyafaheem/devops_assignment_waniya/fastapi-todo:latest
+
         env_file:
             - .env
         ports:
